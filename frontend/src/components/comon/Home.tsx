@@ -1,5 +1,6 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+
 import Logo from "../../assets/img/logo.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -7,6 +8,8 @@ import 'swiper/css';
 
 import SliderOneImg from "../../assets/img/banner-1.jpg";
 import SliderTwoImg from "../../assets/img/banner-2.jpg";
+import LatestProducts from './LatestProducts';
+import FeaturedProducts from './FeaturedProducts';
 
 
 
@@ -83,6 +86,11 @@ const Home = () => {
         </Swiper>
 
       </section>
+
+      
+     <LatestProducts/>
+     <FeaturedProducts/>
+     
 
     </>
   )
