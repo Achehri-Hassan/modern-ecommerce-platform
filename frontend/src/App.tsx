@@ -3,6 +3,8 @@
 import { useState } from "react"
 import { BrowserRouter, Route , Routes } from "react-router"
 import Home from "./components/comon/Home"
+import Shop from "./components/comon/Shop"
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         
          <Routes>
            <Route path="/" element={<Home/>}/>
+           <Route path="/shop" element={<Shop/>}/>
          </Routes>
 
       </BrowserRouter>
