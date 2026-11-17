@@ -125,6 +125,29 @@ header{
 }
 
 
+footer{
+     background-color:$tertiary-color ;
+     h2{
+         font-size: 1.5em;
+     }
+     ul{
+         li{
+             margin-bottom:10px;
+             a{
+                 font-size: 1.2em;
+                 color: $primary-white;
+                
+             }
+         }
+     }
+
+     .spotlight{
+        border-top:1px solid $primary-white ;
+         border-bottom:1px solid $primary-white ;
+     }
+}
+
+
 
 .section-1{
     .swiper{
