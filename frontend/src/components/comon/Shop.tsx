@@ -1,6 +1,7 @@
 
 
 
+import { Link } from "react-router";
 import ProductImg from "../../assets/img/products/eight.jpg";
 
 
@@ -84,10 +85,14 @@ const Shop = () => {
             <div className='col-md-4 col-6'>
               <div className='product card border-0'>
                 <div className='card-img'>
+
+                  <Link to="/product">
                   <img src={ProductImg} alt="#" className='w-100' />
+                  </Link>
+
                 </div>
                 <div className='card-body pt-3'>
-                  <a href="">Red Check Shirt For Men </a>
+                  <Link to="/product">Red Check Shirt For Men </Link>
 
                   <div className='price'>
                     $50 <span className='text-decoration-line-through'>$80</span>

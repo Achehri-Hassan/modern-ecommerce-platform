@@ -70,6 +70,16 @@ ul{
     max-width: 1440px;
 }
 
+
+.nav-tabs{
+    .nav-link{
+         
+        color: $primary-black;
+
+    }
+}
+
+
 .btn{
     &.btn-size{
         background-color: rgba($primary-black, 0.03);
@@ -196,6 +206,20 @@ footer{
          }
     }
 }
+
+
+.product-detial{
+     .mySwiper{
+         .swiper-slide{
+             height: auto !important;
+         }
+     }
+     .price{
+         font-weight: bold;
+        
+     }
+}
+
 
 
 @media (max-width: 200px) and (max-width:768px) {
